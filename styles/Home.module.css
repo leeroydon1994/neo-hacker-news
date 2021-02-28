@@ -1,0 +1,14 @@
+.wrapper {
+  margin: auto 4rem;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.pageNumber > p {
+  margin: 0 2rem;
+}

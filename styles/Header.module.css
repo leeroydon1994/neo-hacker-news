@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  margin: 4rem auto;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 4rem;
+}
+
+.header span {
+  color: #0070f3;
+}
+
+.header p {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,21 @@
+.MuiGrid-item {
+  width: 1rem;
+}
+
+.newsInfo1 span {
+  font-weight: 500;
+}
+
+.newsInfo2 {
+  margin-bottom: 2rem;
+}
+
+.newsCard h2 {
+  margin-bottom: 2.5rem;
+}
+
+.newsCard h2,
+.newsCard p {
+  color: #434343;
+  overflow-wrap: break-word;
+}
