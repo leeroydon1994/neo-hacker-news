@@ -22,7 +22,6 @@ Then run the application with:
 
 ```bash
 npm run dev
-
 # or
 yarn dev
 ```
