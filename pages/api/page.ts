@@ -23,7 +23,7 @@ export default async (req:any, res:any) => {
         }
       `,
     });
-    console.log({ news: data.news });
+    // console.log({ news: data.news });
     res.status(200).json({ news: data.news });
   } catch (error) {
     console.error(error);
