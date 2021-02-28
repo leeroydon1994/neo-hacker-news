@@ -32,6 +32,6 @@ In this applicaiton, I decide to use array as the main data structure, since fre
 
 ## Known Issues & Future Improvements Expected
 
-No apparent issues are found.
+One issue was found. For the next page button, it is still active in the last page if it has 30 posts inside. Users may click it and no further post data is shown in this case.
 
 In the future, transition animation is planned to add into the application, so as to provide a better UI to users.

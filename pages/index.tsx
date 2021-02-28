@@ -32,19 +32,22 @@ export default function NewsListing({ news }) {
       method: "POST", body: JSON.stringify(pageNumber)
     }
 
-    
     let results = await fetch(`/api/page`, fetchQuery);
     let { news } = await results.json();
-    console.log(news);
+    // console.log(news);
+    // Update the states of content and page number
     setContent(news);
     setPage(pageNumber);
     window.scrollTo(0, 0);
 
+    // Controlling the conditions for make the buttons disabled
+    // For previous button, disabled in page 1
     if (pageNumber !== 1) {
       setpreviousDisabled(false);
     } else {
       setpreviousDisabled(true);
     }
+    // For next button, disabled when the post count is not 30
     if (news.length === 30) {
       setNextDisabled(false);
     } else {
