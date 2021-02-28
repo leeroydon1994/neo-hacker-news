@@ -54,7 +54,7 @@ export default async function scrapeHtml(page: string|number) {
         .trim();
       const comments = parseInt(commentData, 10);
 
-      // For the link, judge if it starts with "item?id=", which means the link is inside the site's domain
+      // For the link, judge if it starts with "item?id=", which means the link is inside the site's domain. Add the front part of the URL if so
       const linkData = $(`.storylink:eq(${i})`).attr("href");
       const link = /^item\?id=/.test(linkData) ? "https://news.ycombinator.com/" + linkData : linkData;
 
