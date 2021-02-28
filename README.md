@@ -7,7 +7,7 @@ This application extract news data from [Hacker News](https://news.ycombinator.c
 First clone this project repository to your local machine with:
 
 ```bash
-git clone
+git clone https://github.com/leeroydon1994/neo-hacker-news.git
 ```
 
 Install all modules with:
