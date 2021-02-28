@@ -73,7 +73,7 @@ export default async function scrapeHtml(page: string|number) {
     newsArray.sort((a, b) => b.comments - a.comments);
     return newsArray;
   } else if (!articleNumber) {
-    // If there is no content...
+    // If there is no content, return an empty array
     return [];
   }
 }
