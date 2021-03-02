@@ -28,7 +28,7 @@ yarn dev
 
 ## Data Structure
 
-In this applicaiton, I decide to use array as the main data structure, since frequent insertion and deletion of data, which linked list are preferred, are not emphasised in this case. Rendering the news content can be accomplished with simplier logic by using array.
+In this applicaiton, I decide to use array as the main data structure, since frequent insertion and deletion of data, in which case linked list is preferred, are not emphasised in this case. Rendering the news content can be accomplished with simplier logic by using array.
 
 ## Known Issues & Future Improvements Expected
 
