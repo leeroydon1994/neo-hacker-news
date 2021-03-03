@@ -6,12 +6,12 @@ export const typeDefs = gql`
     news(page: Int!): [News!]!
   }
   type News {
-    id: String!
+    id: Int!
     title: String!
-    points: String!
+    points: Int!
     author: String!
     time: String!
-    comments: String!
+    comments: Int!
     link: String!
   }
 `;
